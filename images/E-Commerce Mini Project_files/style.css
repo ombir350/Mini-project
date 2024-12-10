@@ -1,0 +1,190 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cart-icon {
+    font-size: 1.2rem;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 2rem;
+    background: #f4f4f4;
+  }
+  
+  .hero-section h1 {
+    margin: 0.5rem 0;
+    font-size: 2rem;
+  }
+  
+  .hero-section .btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .products-section {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .products-section h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .product-card .price {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .product-card .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    display: inline-block;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #333;
+    color: white;
+  }
+  /* Login Page Styles */
+.login-container {
+    max-width: 400px;
+    margin: 5rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #fff;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .login-form .btn {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login-form .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-container p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* About Section Styles */
+.about-section {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .about-content p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  .about-content p strong {
+    color: #007BFF;
+  }
+  
+  .about-content p em {
+    color: #333;
+    font-style: italic;
+  }
+  
